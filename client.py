@@ -5,16 +5,14 @@ class Client:
     def __init__(self):
         return
 
+    #Send request to server for file
+    #Recieve file contents in some form
     def read(self):
         return
     
+    #Edits some file that has already been created
+    #Saves file somehow
     def write(self):
-        return
-
-    def send(self):
-        return
-    
-    def recieve(self):
         return
 
     def create(self):
@@ -32,11 +30,18 @@ class Client:
     def currentdir(self):
         return
 
-    def login(self):
+    ##Share fileID with userID
+    ##Check if currentuser has permission to access current file
+    def share(self):
         return
-    
-    def logout(self):
+
+    ##Change permissions for file for userID
+    ##Check if currentuser has permissions to access current file
+    def change_permissions(self):
         return
 
     def register(self):
+        return
+
+    def login(self):
         return
